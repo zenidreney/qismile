@@ -11,6 +11,7 @@ body {
     background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
     border: 2px solid blue;
     border-radius: 25px;
+    margin: 5px 10px;
 }
 
 .navbar .nav-link {
@@ -20,4 +21,17 @@ body {
 
 .navbar .nav-link:hover {
     color: blue;
+}
+
+.mybtn {
+    width: 360px;
+    margin: 5px;
+    background-color: lightgray;
+    color: blueviolet;
+    font-weight: 900;
+}
+
+.mybtn:hover {
+    background-color: yellow;
+    color: blueviolet;
 }
