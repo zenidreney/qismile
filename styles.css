@@ -1,0 +1,23 @@
+body {
+    position: relative;
+    background-color: azure;
+}
+
+.section {
+    height: 100vh;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
+    border: 2px solid blue;
+    border-radius: 25px;
+}
+
+.navbar .nav-link {
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.navbar .nav-link:hover {
+    color: blue;
+}
