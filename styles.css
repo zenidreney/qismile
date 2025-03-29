@@ -9,6 +9,7 @@ body {
 
 .navbar {
     background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
+    opacity: 0.5;
     border: 2px solid blue;
     border-radius: 25px;
     margin: 5px 10px;
@@ -24,8 +25,9 @@ body {
 }
 
 .mybtn {
-    width: 360px;
+    width: 310px;
     margin: 5px;
+    border-radius: 40px;
     background-color: lightgray;
     color: blueviolet;
     font-weight: 900;
@@ -34,4 +36,14 @@ body {
 .mybtn:hover {
     background-color: yellow;
     color: blueviolet;
+}
+
+#videos {
+    color: white;
+    background-color: slategrey
+}
+
+#articles {
+    color: white;
+    background-color: slategrey
 }
