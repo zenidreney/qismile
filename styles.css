@@ -27,10 +27,13 @@ body {
 .mybtn {
     width: 310px;
     margin: 5px;
+    border: 2px solid grey;
     border-radius: 40px;
     background-color: lightgray;
     color: blueviolet;
     font-weight: 900;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .mybtn:hover {
