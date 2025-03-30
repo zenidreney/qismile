@@ -9,8 +9,8 @@ body {
 
 .section img {
     height: 100vh; /* Make the image fill the height of the section */
-    object-fit: cover; /* Ensure the image covers the area without distortion */
-    border: 1px solid white;
+    object-fit: cover; /*Ensure the image covers the area without distortion */
+    padding: 12px;
     border-radius: 34px;
 }
 
@@ -63,5 +63,9 @@ body {
     .section img {
         height: auto; /* Set the image height to auto */
         max-height: 100vh; /* Ensure the image does not exceed the viewport height */
+    }
+    
+    #landing {
+        height: 100vh;
     }
 }
