@@ -47,15 +47,21 @@ body {
     background-color: yellow;
     color: blueviolet;
 }
-
 #videos, #articles {
     color: white;
     background-color: slategrey;
     border-radius: 32px;
     
 }
-/*
-#articles {
-    color: white;
-    background-color: slategrey
-}*/
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .section {
+        height: auto; /* Allow the section to adjust its height */
+    }
+
+    .section img {
+        height: auto; /* Set the image height to auto */
+        max-height: 100vh; /* Ensure the image does not exceed the viewport height */
+    }
+}
