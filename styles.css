@@ -17,15 +17,15 @@ body {
 }
 
 .navbar {
-    background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
+    background-color: #f1faee;/* Transparent background */
     opacity: 0.5;
-    border: 2px solid blue;
-    border-radius: 25px;
+    border: 2px solid #1d3557;
+    border-radius: 15px;
     margin: 5px 40px;
 }
 
 .navbar .nav-link {
-    color: blueviolet;
+    color: #1d3557;
     font-weight: 600;
 }
 
@@ -36,18 +36,19 @@ body {
 .mybtn {
     width: 310px;
     margin: 5px;
+    padding: 5px;
     border: 2px solid grey;
     border-radius: 40px;
-    background-color: lightgray;
-    color: blueviolet;
+    background-color: #f1faee;
+    color: #1d3557;
     font-weight: 900;
     display: inline-block;
     text-decoration: none;
 }
 
 .mybtn:hover {
-    background-color: yellow;
-    color: blueviolet;
+    background-color: #e63946;
+    color: #f1faee;
 }
 
 #landing {
@@ -55,7 +56,7 @@ body {
 }
 
 #videos, #articles {
-    color: white;
+    color: #f1faee;
     background-color: slategrey;
     border-radius: 32px;
     
