@@ -1,7 +1,7 @@
-body {
+/*body {
     position: relative;
     background-color: azure;
-}
+}*/
 /*
 
 .section {
@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-    background-color: #f1faee;/* Transparent background */
+    background-color: #f1faee;
     opacity: 0.5;
     border: 2px solid #1d3557;
     border-radius: 15px;
