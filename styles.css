@@ -2,10 +2,12 @@ body {
     position: relative;
     background-color: azure;
 }
+/*
 
 .section {
     height: 100vh;
 }
+*/
 
 .section img {
     height: 100vh; /* Make the image fill the height of the section */
@@ -47,6 +49,11 @@ body {
     background-color: yellow;
     color: blueviolet;
 }
+
+#landing {
+    height: 100vh;
+}
+
 #videos, #articles {
     color: white;
     background-color: slategrey;
@@ -54,18 +61,3 @@ body {
     
 }
 
-/* Media query for small screens */
-@media (max-width: 768px) {
-    .section {
-        height: auto; /* Allow the section to adjust its height */
-    }
-
-    .section img {
-        height: auto; /* Set the image height to auto */
-        max-height: 100vh; /* Ensure the image does not exceed the viewport height */
-    }
-    
-    #landing {
-        height: 100vh;
-    }
-}
