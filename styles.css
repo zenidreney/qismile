@@ -1,21 +1,12 @@
-/*body {
-    position: relative;
+body {
     background-color: azure;
-}*/
+}
 /*
 
 .section {
     height: 100vh;
 }
 */
-
-.section img {
-    height: 100vh; /* Make the image fill the height of the section */
-    object-fit: cover; /*Ensure the image covers the area without distortion */
-    padding: 12px;
-    border-radius: 34px;
-}
-
 .navbar {
     background-color: #f1faee;
     opacity: 0.5;
@@ -51,14 +42,20 @@
     color: #f1faee;
 }
 
+.myimage {
+    height: 100vh; /* Make the image fill the height of the section */
+    object-fit: cover; /*Ensure the image covers the area without distortion */
+    padding: 12px;
+    border-radius: 34px;
+}
+
 #landing {
     height: 100vh;
 }
 
-#videos, #articles {
+#videos,
+#articles {
     color: #f1faee;
     background-color: slategrey;
     border-radius: 32px;
-    
 }
-
