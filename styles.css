@@ -1,5 +1,5 @@
 body {
-    background-color: azure;
+    background-color: #f1faee;
 }
 /*
 
@@ -28,7 +28,7 @@ body {
     width: 310px;
     margin: 5px;
     padding: 5px;
-    border: 2px solid grey;
+    border: 2px solid #457B9D;
     border-radius: 40px;
     background-color: #f1faee;
     color: #1d3557;
@@ -56,6 +56,6 @@ body {
 #videos,
 #articles {
     color: #f1faee;
-    background-color: slategrey;
+    background-color: #457B9D;
     border-radius: 32px;
 }
