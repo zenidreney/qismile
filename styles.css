@@ -92,22 +92,24 @@ body {
 }
 
 #roundedge-left {
-    border-radius: 25px;
+
+    border-radius: 25px 0 0 25px;
     padding: 20px;
     background-color: #1D3557;
 }
 
 #roundedge-right {
-    border-radius: 25px;
+   
+    border-radius: 0 25px 25px 0;
     padding: 20px;
     background-color: #e63946;
 }
 
 #roundedge-center {
+  
     background-image: url(media/flowerblossom.jpg);
     background-position: center;
     background-size: cover;
-    border-radius: 25px;
     padding-top: 15px;
     height: 25vh;
 }
@@ -115,4 +117,16 @@ body {
 .videos-contain {
     border-radius: 25px;
     overflow:hidden;
+}
+
+/*Media Queries*/
+
+@media (max-width: 769px) {
+    
+    #roundedge-right,
+    #roundedge-left,
+    #roundedge-center {
+        border-radius: 25px;
+    }
+    
 }
