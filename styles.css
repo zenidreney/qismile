@@ -57,26 +57,37 @@ body {
     padding-top: 15px;
 }
 
-#videos,
-#articles {
+#videos {
     color: #f1faee;
     background-color: #457b9d;
     border-radius: 32px;
 }
 
+#articles {
+    background-image: url(media/eveningsunset.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    padding-top: 15px;
+}
+
 #music {
-    background-image: url(media/calmsky.jpg);
+    background-image: url(media/yellowsky.jpg);
     background-size: cover;
     border-radius: 25px;
     padding-top: 15px;
 }
 
 
-.readmore {
-    color: black;
+.readmore-blue {
+    color: #1D3557;
 }
 
-.readmore:hover {
+.readmore-white {
+    color: #A8DADC;
+}
+
+.readmore-blue:hover,
+.readmore-white:hover {
     color: #e63946;
 }
 
@@ -99,4 +110,9 @@ body {
     border-radius: 25px;
     padding-top: 15px;
     height: 25vh;
+}
+
+.videos-contain {
+    border-radius: 25px;
+    overflow:hidden;
 }
