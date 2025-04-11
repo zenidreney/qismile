@@ -28,7 +28,7 @@ body {
     width: 310px;
     margin: 5px;
     padding: 5px;
-    border: 2px solid #457B9D;
+    border: 2px solid #457b9d;
     border-radius: 40px;
     background-color: #f1faee;
     color: #1d3557;
@@ -51,11 +51,52 @@ body {
 
 #landing {
     height: 100vh;
+    background-image: url(media/orangesky.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    padding-top: 15px;
 }
 
 #videos,
 #articles {
     color: #f1faee;
-    background-color: #457B9D;
+    background-color: #457b9d;
     border-radius: 32px;
+}
+
+#music {
+    background-image: url(media/calmsky.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    padding-top: 15px;
+}
+
+
+.readmore {
+    color: black;
+}
+
+.readmore:hover {
+    color: #e63946;
+}
+
+#roundedge-left {
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #1D3557;
+}
+
+#roundedge-right {
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #e63946;
+}
+
+#roundedge-center {
+    background-image: url(media/flowerblossom.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    padding-top: 15px;
+    height: 25vh;
 }
