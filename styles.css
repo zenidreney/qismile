@@ -53,13 +53,20 @@ body {
     height: 100vh;
     background-image: url(media/orangesky.jpg);
     background-size: cover;
+    background-color: rgba(255, 255, 255, 0.15);
+    background-blend-mode: screen;
     border-radius: 25px;
     padding-top: 15px;
 }
 
+#landing h1,
+#landing p {
+    color: #1d3557;
+}
+
 #videos {
-    color: #f1faee;
-    background-color: #457b9d;
+    color: #1d3557;
+    background-color: rgb(69, 123, 157, 0.4);
     border-radius: 32px;
 }
 
@@ -99,7 +106,7 @@ body {
 #roundedge-right {
     border-radius: 0 25px 25px 0;
     padding: 20px;
-    background-color: #e63946;
+    background-color: #1d3557;
 }
 
 #roundedge-center {
@@ -113,6 +120,10 @@ body {
 .videos-contain {
     border-radius: 25px;
     overflow: hidden;
+}
+
+#footer a {
+    color: #a8dadc;
 }
 
 /*Media Queries*/
