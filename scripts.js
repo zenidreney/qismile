@@ -16,4 +16,6 @@ function renderQuote() {
                     
                 </div>
                 `;
+    console.log(quotesBtn);
+    quotesBtn.disabled = true;
 }

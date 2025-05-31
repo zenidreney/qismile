@@ -42,6 +42,12 @@ body {
     color: #f1faee;
 }
 
+.mybtn:disabled {
+    background-color: rgba(255, 255, 255, 0.5);;
+    color: #e63946;
+    cursor: not-allowed;
+}
+
 .myimage {
     height: 100vh; /* Make the image fill the height of the section */
     object-fit: cover; /*Ensure the image covers the area without distortion */
