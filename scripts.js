@@ -7,15 +7,12 @@ const randomNumber = Math.floor(Math.random() * dailyQuotes.length);
 quotesBtn.addEventListener("click", renderQuote);
 
 function renderQuote() {
-    quotesPara.innerHTML = `
-                <div id="quotes-para" class="mt-3">
-                
-                    <p class="lead fw-bolder">
-                        ${dailyQuotes[randomNumber]}
-                    </p>
-                    
-                </div>
-                `;
-    console.log(quotesBtn);
+    const quotePara = document.createElement("p");
+    quotePara.classList.add("lead", "fw-bolder");
+    quotePara.textContent = dailyQuotes[randomNumber];
+
+    quotesPara.append(quotePara);
+
+    console.log(quotesBtn, quotesPara);
     quotesBtn.disabled = true;
 }
