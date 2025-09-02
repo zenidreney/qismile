@@ -1,10 +1,10 @@
 body {
     background-color: #f1faee;
 }
-/*
 
+/*
 .section {
-    height: 100vh;
+    height: 100svh;
 }
 */
 .navbar {
@@ -55,7 +55,7 @@ body {
     border-radius: 34px;
 }
 
-#landing {
+#landing{
     height: 100vh;
     background-image: url(media/orangesky.jpg);
     background-size: cover;
@@ -141,4 +141,9 @@ body {
     #roundedge-left {
         border-radius: 25px 25px 0 0;
     }
+    .daily-iframe {
+        height: 50%;
+        
+    }
+    
 }
