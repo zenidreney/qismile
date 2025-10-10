@@ -7,6 +7,16 @@ body {
     height: 100svh;
 }
 */
+
+.socials-icon {
+    font-size: 2em;
+    color:red;
+}
+
+.patreon-logo {
+    width: 8em;
+}
+
 .navbar {
     background-color: #f1faee;
     opacity: 0.8;
