@@ -1,16 +1,23 @@
 body {
     background-color: #f1faee;
 }
-
 /*
+
 .section {
     height: 100svh;
 }
 */
 
+.icons-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 15%;
+    min-width: 200px;
+    margin: 0 auto;
+}
+
 .socials-icon {
     font-size: 2em;
-    color:red;
+    color: red;
 }
 
 .patreon-logo {
@@ -53,7 +60,7 @@ body {
 }
 
 .mybtn:disabled {
-    background-color: rgba(255, 255, 255, 0.5);;
+    background-color: rgba(255, 255, 255, 0.5);
     color: #e63946;
     cursor: not-allowed;
 }
@@ -65,8 +72,8 @@ body {
     border-radius: 34px;
 }
 
-#landing{
-    height: 100vh;
+#landing {
+    min-height: 100vh;
     background-image: url(media/orangesky.jpg);
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.15);
@@ -153,7 +160,5 @@ body {
     }
     .daily-iframe {
         height: 50%;
-        
     }
-    
 }
