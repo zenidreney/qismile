@@ -24,44 +24,18 @@
 <body class="text-center">
     <!--Navigation Bar-->
 
-    <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="#">Qi Smile</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#videos">Videos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#music">Music</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#articles">Articles</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#footer">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <!--Automatically loads to DOM from navbar.js via navbar.html-->
+        <div id="navbar-container"></div>
 
     <!--Landing Section-->
     <main>
         <section id="landing" class="section container d-flex flex-column align-items-center mt-5 gap-3">
-            <h1 class="display-4">Qi Smile Wellness Portal</h1>
-            <p>
-                Qi Smile is a digital portal where you can find information primarily about Qi-Gong and other
-                wellness arts
-            </p>
-            <p>In particular you can find videos, music for meditation and articles</p>
-            <p>Access them here on YouTube, Pinterest or Patreon</p>
+            <div class="bg-white px-5 py-3 rounded bg-opacity-50">
+                <h1 class="display-4">Qi Smile</h1>
+                <h2 class="display-6">
+                    Digital portal for Qi-Gong and Akashic Registers.
+                </h2>
+            </div>
             <div class="border p-3 rounded icons-container mb-3">
 
                 <div class="d-flex gap-3 justify-content-center mb-2">
@@ -185,6 +159,11 @@
             </div>
         </div>
     </footer>
+    
+    <script type="module">
+            import { loadNavBar } from "./navbar.js";
+            loadNavBar();
+    </script>
 
     <!--JavaScript for Bootstrap 5.3.3-->
 

@@ -1,13 +1,17 @@
+
+
 import { dailyQuotes } from "/data.js";
 
-const quotesPara = document.getElementById("quotes-para");
 const quotesBtn = document.getElementById("quotes-btn");
-const randomNumber = Math.floor(Math.random() * dailyQuotes.length);
 
 quotesBtn.addEventListener("click", renderQuote);
 
 function renderQuote() {
+    
+    const quotesPara = document.getElementById("quotes-para");
+    const randomNumber = Math.floor(Math.random() * dailyQuotes.length);
     const quotePara = document.createElement("p");
+    
     quotePara.classList.add("lead", "fw-bolder");
     quotePara.textContent = dailyQuotes[randomNumber];
 
@@ -15,4 +19,7 @@ function renderQuote() {
 
     console.log(quotesBtn, quotesPara);
     quotesBtn.disabled = true;
+    
 }
+
+

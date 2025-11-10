@@ -1,5 +1,6 @@
 body {
-    background-color: #f1faee;
+    background-image: url(media/eveningmoon.jpg);
+    background-size: cover
 }
 /*
 
@@ -27,9 +28,11 @@ body {
 .navbar {
     background-color: #f1faee;
     opacity: 0.8;
+    
+    max-width: 820px;
     border: 2px solid #1d3557;
     border-radius: 15px;
-    margin: 5px 40px;
+    margin: 5px auto;
 }
 
 .navbar .nav-link {
@@ -74,7 +77,7 @@ body {
 
 #landing {
     min-height: 100vh;
-    background-image: url(media/orangesky.jpg);
+    background-image: url(media/flowerblossom.jpg);
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.15);
     background-blend-mode: screen;
