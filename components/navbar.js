@@ -1,11 +1,11 @@
 export async function loadNavBar() {
-    const res = await fetch("./navbar.html")
+    const res = await fetch("./components/navbar.html")
     const rawHtmlText = await res.text()
     
     const parser = new DOMParser()
     const doc = parser.parseFromString(rawHtmlText, "text/html")
     
-    const header = doc.querySelector("header")
+    const navBar = doc.querySelector("nav")
 
-    document.getElementById("navbar-container").append(header)  
+    document.getElementById("navbar-container").append(navBar)  
 }

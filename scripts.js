@@ -1,25 +1,14 @@
+import { loadNavBar } from "./components/navbar.js";
+import { renderQuote } from "./utils/renderQuote.js";
 
+import { loadFooter } from "./components/footer.js";
 
-import { dailyQuotes } from "/data.js";
+loadNavBar();
 
 const quotesBtn = document.getElementById("quotes-btn");
-
-quotesBtn.addEventListener("click", renderQuote);
-
-function renderQuote() {
-    
-    const quotesPara = document.getElementById("quotes-para");
-    const randomNumber = Math.floor(Math.random() * dailyQuotes.length);
-    const quotePara = document.createElement("p");
-    
-    quotePara.classList.add("lead", "fw-bolder");
-    quotePara.textContent = dailyQuotes[randomNumber];
-
-    quotesPara.append(quotePara);
-
-    console.log(quotesBtn, quotesPara);
+quotesBtn.addEventListener("click", () => {
+    renderQuote();
     quotesBtn.disabled = true;
-    
-}
+});
 
-
+loadFooter()

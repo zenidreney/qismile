@@ -29,7 +29,7 @@
         <!--Navigation Bar-->
 
         <!--Automatically loads to DOM from navbar.js via navbar.html-->
-        <div id="navbar-container"></div>
+        <header id="navbar-container" class="sticky-top"></header>
 
         <!--BacktoTop Button-->
 
@@ -237,29 +237,12 @@
            <!--Footer Section-->
 
         <footer id="footer" class="text-center mt-5">
-            <div class="container">
-                <div class="row">
-                    <div id="roundedge-left" class="col-md-5 col-sm-12 text-start text-white">
-                        <p>
-                            For your inquires about Qi-Gong classes and seminars<br />
-                            Contact: <a href="mailto:hi@qismile.com">hi@qismile.com</a> 
-                        </p>
-                    </div>
-
-                    <div id="roundedge-center" class="col-md-2 col-sm-12 text-start text-white"></div>
-
-                    <div id="roundedge-right" class="col-md-5 col-sm-12 text-end text-white">
-                        <p>Website by: <br />&copy; 2025 ZenidReney Web Development. <br />All rights reserved.</p>
-                        <p>Built with <a href="https://getbootstrap.com" target="_blank">Bootstrap</a>.</p>
-                    </div>
-                </div>
-            </div>
+            
         </footer>
         
         
-        <script type="module">
-           import { loadNavBar } from "./navbar.js"
-            loadNavBar()
+        <script type="module" src="scripts.js">
+         
             
         </script>
         
