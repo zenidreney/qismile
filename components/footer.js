@@ -1,5 +1,5 @@
 export async function loadFooter() {
-    const res = await fetch("./components/footer.html")
+    const res = await fetch("/components/footer.html")
     const rawHtmlText = await res.text()
     
     const parser = new DOMParser()

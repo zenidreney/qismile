@@ -1,5 +1,5 @@
 export async function loadNavBar() {
-    const res = await fetch("./components/navbar.html")
+    const res = await fetch("/components/navbar.html")
     const rawHtmlText = await res.text()
     
     const parser = new DOMParser()
