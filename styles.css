@@ -54,7 +54,7 @@ li {
     border-radius: 15px;
     margin: 5px auto;
 
-  
+
 }
 
 .navbar .nav-link {
@@ -179,18 +179,23 @@ li {
 } */
 
 .color-border {
-    
-    
+
+
     background:
-    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8)) padding-box,
-    /* inner background */
-    linear-gradient(90deg, #ff7b00, #ff00c8, #00d4ff) border-box;
+        linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8)) padding-box,
+        /* inner background */
+        linear-gradient(90deg, #ff7b00, #ff00c8, #00d4ff) border-box;
     /* border gradient */
     position: relative;
     overflow: hidden;
-    border-radius:12px;
+    border-radius: 12px;
     border: 2px solid transparent;
 
+}
+
+.font-style {
+    font-family: "Playwrite HU", cursive;
+    
 }
 
 
