@@ -5,7 +5,7 @@
 
 body {
     background-image: url(media/eveningmoon.jpg);
-    background-size: cover
+    background-size: cover;
 }
 
 ul {
@@ -171,12 +171,12 @@ li {
     color: #a8dadc;
 }
 
-#footer {
+/* #footer {
     
     width: fit-content;
     margin: 0 auto;
     border-radius: 12px 12px 0 0;
-}
+} */
 
 .color-border {
     
@@ -199,7 +199,7 @@ li {
 @media (min-width: 769px) {
 
     .daily-iframe {
-        height: 50%;
+        height: 50vh;
     }
 
     #footer {
