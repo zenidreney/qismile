@@ -2,6 +2,16 @@ body {
     background-image: url(media/eveningmoon.jpg);
     background-size: cover
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+}
 /*
 
 .section {
