@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url(media/eveningmoon.jpg);
     background-size: cover
@@ -67,7 +72,8 @@ li {
     text-decoration: none;
 }
 
-.mybtn:hover {
+.mybtn:hover,
+.mybtn:focus {
     background-color: #e63946;
     color: #f1faee;
 }
