@@ -194,6 +194,10 @@ Effect for links and containers like a tags
     
 }
 
+.skew {
+    display: inline-block;
+    transform: skewX(-8deg)
+}
 
 /*Media Queries*/
 
