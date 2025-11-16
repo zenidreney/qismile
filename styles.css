@@ -210,3 +210,25 @@ Effect for links and containers like a tags
     }
 }
 
+
+p.scale-animation {
+    animation: scaleAnimation 1.5s infinite alternate ease-in-out;
+}
+
+
+@keyframes scaleAnimation {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/* .scale-effect {
+}
+
+.scale-effect:hover,
+.scale-effect:focus {
+} */

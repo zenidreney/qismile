@@ -10,7 +10,7 @@ export function renderQuote() {
     const randomNumber = Math.floor(Math.random() * dailyQuotes.length);
     const quotePara = document.createElement("p");
     
-    quotePara.classList.add("lead", "fw-bolder");
+    quotePara.classList.add("lead", "fw-bolder", "scale-animation");
     quotePara.textContent = dailyQuotes[randomNumber];
 
     quotesPara.append(quotePara);
