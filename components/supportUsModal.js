@@ -2,9 +2,7 @@
 
 export async function loadSupportUsModal() {
 
-    const supportUsModalContainer = document.getElementById("support-us-modal")
-
-    if(supportUsModalContainer) {
+    
 
 
         const res = await fetch("/components/support-us-modal.html")
@@ -22,8 +20,8 @@ export async function loadSupportUsModal() {
         const supportUsModal = new bootstrap.Modal(modal)
         setTimeout(() => {
             supportUsModal.show()
-        }, 5000);
+        }, 8000);
 
-    }
+    
 
 }
