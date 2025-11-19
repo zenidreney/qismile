@@ -4,6 +4,8 @@ import { loadFooter } from "./components/footer.js";
 
 import { renderQuote } from "./utils/renderQuote.js";
 
+import { loadSupportUsModal } from "./components/supportUsModal.js";
+
 /*Logic for daily-insipiration page*/
 
 if (document.getElementById("quotes-btn")) {
@@ -25,4 +27,5 @@ document.addEventListener("DOMContentLoaded", () => {
     loadFooter();
 })
 
+loadSupportUsModal()
 
