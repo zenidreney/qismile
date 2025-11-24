@@ -61,7 +61,7 @@ const jsonLdObjects = [
     }
 ]
 
-console.log(jsonLdObjects)
+// console.log(jsonLdObjects)
 
 jsonLdObjects.forEach(obj => {
     const script = document.createElement("script")
