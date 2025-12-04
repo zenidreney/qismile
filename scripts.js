@@ -1,7 +1,7 @@
 import { loadFooter } from "./components/footer.js";
 import { loadNavBar } from "./components/navbar.js";
-import { renderQuote } from "./utils/renderQuote.js";
 import { loadSupportUsModal } from "./components/supportUsModal.js";
+import { renderQuote } from "./utils/renderQuote.js";
 
 document.addEventListener("DOMContentLoaded", () => {
 	loadNavBar();
