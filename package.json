@@ -1,8 +1,9 @@
 {
-  "devDependencies": {
-    "@biomejs/biome": "2.3.8",
-    "@eslint/js": "^9.38.0",
-    "eslint": "^9.38.0",
-    "globals": "^16.4.0"
-  }
+	"scripts": {
+		"lint": "biome check .",
+		"format": "biome format ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.8"
+	}
 }
