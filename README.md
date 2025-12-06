@@ -10,6 +10,7 @@ Qi Smile is a front-end portfolio project of a digital wellness portal. This sit
 - **Bootstrap Icons**: Scalable vector icons
 - **JavaScript (ES6 modules)**: Dynamic content loading and UI interactions
 - **Design Principles**: Mobile-first, accessibility-aware layout
+- **Biome**: Clean modern code.
 
 ## Portfolio Features
 
@@ -27,10 +28,6 @@ Qi Smile is a front-end portfolio project of a digital wellness portal. This sit
 - `/components/` — Modular HTML for Navbar & Footer
 - `/scripts.js` — Loads components and handles page interactivity
 - `/media/` — Site images and favicon
-
-## Quick Start
-
-Clone the repository and open `index.html` in your browser. No backend or build steps are required.
 
 ## License
 
