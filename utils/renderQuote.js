@@ -1,20 +1,12 @@
-
-
 import { dailyQuotes } from "/data.js";
 
-
-
 export function renderQuote() {
-    
-    const quotesPara = document.getElementById("quotes-para");
-    const randomNumber = Math.floor(Math.random() * dailyQuotes.length);
-    const quotePara = document.createElement("p");
-    
-    quotePara.classList.add("lead", "fw-bolder", "scale-animation");
-    quotePara.textContent = dailyQuotes[randomNumber];
+	const quotesPara = document.getElementById("quotes-para");
+	const randomNumber = Math.floor(Math.random() * dailyQuotes.length);
+	const quotePara = document.createElement("p");
 
-    quotesPara.append(quotePara);
+	quotePara.classList.add("lead", "fw-bolder", "scale-animation");
+	quotePara.textContent = dailyQuotes[randomNumber];
 
-   
-    
+	quotesPara.append(quotePara);
 }

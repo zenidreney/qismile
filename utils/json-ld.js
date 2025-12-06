@@ -1,3 +1,5 @@
+// biome-ignore format: json-ld expected to be raw JSON objects.
+
 const jsonLdObjects = [
     {
         "@context": "https://schema.org",
@@ -63,10 +65,9 @@ const jsonLdObjects = [
 
 // console.log(jsonLdObjects)
 
-jsonLdObjects.forEach(obj => {
-    const script = document.createElement("script")
-    script.type = "application/ld+json"
-    script.textContent = JSON.stringify(obj)
-    document.head.append(script)
-
-})
+jsonLdObjects.forEach((obj) => {
+	const script = document.createElement("script");
+	script.type = "application/ld+json";
+	script.textContent = JSON.stringify(obj);
+	document.head.append(script);
+});
